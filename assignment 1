@@ -1,0 +1,24 @@
+str=input()
+u=0
+d=0
+a=0
+l=0
+for i in str:
+    if(i.isdigit()):
+      d=d+1
+    elif(i.isupper()):
+       u=u+1
+    elif(i.islower()):
+        l=l+1
+    else:
+       a=u+l
+print('digit',d)
+print('alphabets',a)
+print('uppercase',u)
+print('lowercase',l)
+output:-
+th  The way u treat yourself should always be seen                       w will always depend  s on how you treat         u imagine YOUR SELF ANF=D   D Y WORK HARD UNTL  IL YOUR BANK BALANCE BECOMES LIKE UR PHONE NUMBER 9831238461 GIRL u n     star =  t work becone    me ps addio    ssion
+digit 10
+alphabets 133
+uppercase 67
+lowercase 73
